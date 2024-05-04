@@ -43,5 +43,7 @@ Similarly to `build`, execute `run` and then input the values into standard in. 
 5. Figure out if the graph is acyclic by looking for cycles from each possible node in a DFS fashion. If the graph has cycles, there's no topological sorting, i.e. the result is `Impossible`.
 6. If the graph is acyclic, return the topological sorting.
 
+**Assumption**: it was not perfectly clear whether the input is in the format `jack%1`, `john%2`, etc. or `jack`, `john`. I assumed it's the latter one.
+
 ## Developer
 Developed by zkkv, 05/2024
